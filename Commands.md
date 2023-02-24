@@ -10,6 +10,7 @@ kali@kali:~$ sudo sshuttle -e "ssh -oHostKeyAlgorithms=+ssh-dss" -r vyos@172.16.
 Then try nc to a port or nmap or the tool you need against the network you want to reach
 
 ## OpenSSH
+(https://www.openssh.com/)
 
 ###Attacker machine:
 
@@ -20,5 +21,4 @@ Then use proxychains to use the tunnel against the victim;
 Example command:
 
 $sudo proxychains impacket-psexec administrator@10.0.0.100
-![image](https://user-images.githubusercontent.com/50082994/221246852-0e989fbd-c9ae-4d19-bb10-4e00ed0cc0c0.png)
 
